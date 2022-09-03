@@ -8,7 +8,7 @@
 		  "background": "#fdf6e3",
 		  "foreground": "#657b83",
 		  "gutter": "#fdf6e3",
-		  "popupCss": "\nhtml {\n  background-color: #ebe5d3;\n  color: #657b83;\n}\n\na {\n  color: #268bd2;\n}\n\n.error,\n.deleted {\n  color: #dc322f;\n}\n\n.success,\n.inserted,\n.name {\n  color: #859900;\n}\n\n.warning,\n.modified {\n  color: #b58900;\n}\n\n.type {\n  color: #2aa198;\n  font-style: italic;\n}\n\n.param {\n  color: #cb4b16;\n}\n\n.current {\n  text-decoration: underline;\n}\n",
+		  "popupCss": "\nhtml {\n  background-color: #ebe5d3;\n  color: #657b83;\n}\n\na {\n  color: #268bd2;\n}\n\n.error,\n.deleted {\n  color: #b4637a;\n}\n\n.success,\n.inserted,\n.name {\n  color: #859900;\n}\n\n.warning,\n.modified {\n  color: #b58900;\n}\n\n.type {\n  color: #2aa198;\n  font-style: italic;\n}\n\n.param {\n  color: #cb4b16;\n}\n\n.current {\n  text-decoration: underline;\n}\n",
 		  "selectionBorder": "#00000016",
 		  "stackGuide": "#00000040"
 		}
@@ -82,8 +82,8 @@
 		"name": "Invalid",
 		"scope": "invalid",
 		"settings": {
-		  "background": "#dc322f",
-		  "foreground": "#dc322f"
+		  "background": "#b4637a",
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -91,7 +91,7 @@
 		"scope": "invalid.deprecated",
 		"settings": {
 		  "background": "#6c71c4",
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -206,7 +206,7 @@
 		  "variable.other.class.js"
 		],
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -214,7 +214,7 @@
 		"scope": "variable.language",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -252,7 +252,7 @@
 		"name": "Deleted",
 		"scope": "markup.deleted",
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -313,7 +313,7 @@
 		"scope": "source.js constant.other.object.key.js string.unquoted.label.js",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -323,7 +323,7 @@
 		  "source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
 		],
 		"settings": {
-		  "foreground": "#dc322fbf"
+		  "foreground": "#b4637abf"
 		}
 	  },
 	  {
@@ -373,7 +373,7 @@
 		  "source.json meta meta meta meta meta meta.structure.dictionary.json punctuation.definition.string - meta meta meta meta meta meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string"
 		],
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -624,7 +624,7 @@
 		"name": "Markdown - TODO Cancelled",
 		"scope": "punctuation.definition.list_item.todo.cancelled",
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -862,14 +862,14 @@
 		"name": "Markdown - Admonition Header (Danger)",
 		"scope": "markup.admonition.markdown.danger markup.admonition.header.markdown",
 		"settings": {
-		  "background": "#dc322f50"
+		  "background": "#b4637a50"
 		}
 	  },
 	  {
 		"name": "Markdown - Admonition Body (Danger)",
 		"scope": "markup.admonition.markdown.danger markup.admonition.body.markdown",
 		"settings": {
-		  "background": "#dc322f15"
+		  "background": "#b4637a15"
 		}
 	  },
 	  {
@@ -896,7 +896,7 @@
 		  "markup.admonition.markdown.danger meta.definition.language.raw.block.fenced.markdown"
 		],
 		"settings": {
-		  "foreground": "#dc322f75"
+		  "foreground": "#b4637a75"
 		}
 	  },
 	  {
@@ -904,7 +904,7 @@
 		"scope": "markup.admonition.markdown.danger entity.name.admonition.markdown",
 		"settings": {
 		  "fontStyle": "bold",
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -919,15 +919,15 @@
 		  "markup.admonition.markdown.danger markup.raw.block"
 		],
 		"settings": {
-		  "background": "#dc322f25"
+		  "background": "#b4637a25"
 		}
 	  },
 	  {
 		"name": "Markdown - Admonition Quote (Danger)",
 		"scope": "markup.admonition.markdown.danger markup.quote punctuation.definition.blockquote.markdown",
 		"settings": {
-		  "background": "#dc322f35",
-		  "foreground": "#dc322f35"
+		  "background": "#b4637a35",
+		  "foreground": "#b4637a35"
 		}
 	  },
 	  {
@@ -1028,7 +1028,7 @@
 		"name": "SublimeLinter Error",
 		"scope": "sublimelinter.mark.error",
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -1063,7 +1063,7 @@
 		"name": "GitGutter Deleted",
 		"scope": "markup.deleted.git_gutter",
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -1077,7 +1077,7 @@
 		"name": "Bracket Highlighter Unmatched",
 		"scope": "brackethighlighter.unmatched",
 		"settings": {
-		  "foreground": "#dc322f"
+		  "foreground": "#b4637a"
 		}
 	  },
 	  {
@@ -1300,22 +1300,22 @@
   
 	  // Workbench: Terminal
 	  // Colors sourced from the official palette http://ethanschoonover.com/solarized
-	  "terminal.ansiBlack": "#073642",
-	  "terminal.ansiRed": "#dc322f",
+	  "terminal.ansiBlack": "#eee8d5", // #073642
+	  "terminal.ansiRed": "#b4637a", // #dc322f
 	  "terminal.ansiGreen": "#859900",
 	  "terminal.ansiYellow": "#b58900",
 	  "terminal.ansiBlue": "#268bd2",
-	  "terminal.ansiMagenta": "#d33682",
+	  "terminal.ansiMagenta": "#6c71c4", // #d33682
 	  "terminal.ansiCyan": "#2aa198",
-	  "terminal.ansiWhite": "#eee8d5",
-	  "terminal.ansiBrightBlack": "#586e75",
-	  "terminal.ansiBrightRed": "#cb4b16",
-	  "terminal.ansiBrightGreen": "#586e75",
-	  "terminal.ansiBrightYellow": "#657b83",
-	  "terminal.ansiBrightBlue": "#839496",
-	  "terminal.ansiBrightMagenta": "#6c71c4",
-	  "terminal.ansiBrightCyan": "#93a1a1",
-	  "terminal.ansiBrightWhite": "#eee8d5",
+	  "terminal.ansiWhite": "#575279", // #eee8d5
+	  "terminal.ansiBrightBlack": "#ccbfa3", // #586e75
+	  "terminal.ansiBrightRed": "#de8c88", // #cb4b16
+	  "terminal.ansiBrightGreen": "#629f81", // #586e75
+	  "terminal.ansiBrightYellow": "#af8700", // #657b83
+	  "terminal.ansiBrightBlue": "#3393ba", // #839496
+	  "terminal.ansiBrightMagenta": "#9a80b9", // #6c71c4
+	  "terminal.ansiBrightCyan": "#00afaf", // #93a1a1
+	  "terminal.ansiBrightWhite": "#5f5695", // #eee8d5
   
 	  // Interactive Playground
 	  "walkThrough.embeddedEditorBackground": "#00000014"
