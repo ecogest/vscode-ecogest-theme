@@ -1,0 +1,21 @@
+{
+  "name": "ecogest-theme",
+  "displayName": "ecogest-theme",
+  "description": "Colorscheme for personal use",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ecogest-solarized-light",
+        "uiTheme": "vs",
+        "path": "./themes/ecogest-solarized-light-color-theme.json"
+      }
+    ]
+  }
+}
