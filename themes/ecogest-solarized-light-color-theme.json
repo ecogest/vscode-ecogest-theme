@@ -96,7 +96,12 @@
 	  },
 	  {
 		"name": "Keyword, Storage",
-		"scope": ["keyword", "storage.type", "storage.modifier"],
+		"scope": [
+			"keyword",
+			"storage.type",
+			"storage.modifier",
+			"keyword.operator.new", // mod
+		],
 		"settings": {
 		  "foreground": "#6c71c4"
 		}
@@ -115,10 +120,24 @@
 		  "punctuation.definition.tag.end.html",
 		  "punctuation.section.embedded",
 		  "keyword.other.template",
-		  "keyword.other.substitution"
+		  "keyword.other.substitution",
+		  "cast.expr", // add
+		  "meta.array.literal", // add
+		  "meta.block",
 		],
 		"settings": {
 		  "foreground": "#2aa198"
+		}
+	  },
+	  {
+		"name": "Variables",
+		"scope": [
+		  "variable.parameter", // mod
+		  "support.other.variable",
+		  "string.other.link"
+		],
+		"settings": {
+		  "foreground": "#c9709e"
 		}
 	  },
 	  {
@@ -145,13 +164,13 @@
 		  "foreground": "#268bd2"
 		}
 	  },
-	  {
-		"name": "Other Variable, String Link",
-		"scope": ["support.other.variable", "string.other.link"],
-		"settings": {
-		  "foreground": "#cf4b56"
-		}
-	  },
+	//   {
+	// 	"name": "Other Variable, String Link",
+	// 	"scope": ["support.other.variable", "string.other.link"],
+	// 	"settings": {
+	// 	  "foreground": "#cf4b56"
+	// 	}
+	//   },
 	  {
 		"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
 		"scope": [
@@ -159,7 +178,7 @@
 		  "constant.language",
 		  "support.constant",
 		  "constant.character",
-		  "variable.parameter",
+		//   "variable.parameter",
 		  "keyword.other.unit"
 		],
 		"settings": {
@@ -187,12 +206,13 @@
 		"scope": [
 		  "entity.name.class",
 		  "entity.name.type.class",
+		  "entity.name.type", // mod (especially for interfaces)
 		  "support.type",
 		  "support.class",
 		  "support.other.namespace.use.php",
 		  "meta.use.php",
 		  "support.other.namespace.php",
-		  "markup.changed.git_gutter"
+		  "markup.changed.git_gutter",
 		],
 		"settings": {
 		  "foreground": "#b58900"
@@ -214,7 +234,7 @@
 		"scope": "variable.language",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#b4637a"
+		  "foreground": "#c9709e"
 		}
 	  },
 	  {
