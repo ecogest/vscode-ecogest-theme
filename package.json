@@ -8,7 +8,7 @@
   "description": "Colorscheme for personal use",
   "version": "0.0.2",
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.69.0"
   },
   "categories": [
     "Themes"
