@@ -1,6 +1,7 @@
 {
 	"name": "ecogest-solarized-light",
 	"semanticHighlighting": true,
+	"type": "dark",
 	"tokenColors": [
 	  {
 		"settings": {
@@ -78,6 +79,15 @@
 		  "foreground": "#657b83"
 		}
 	  },
+	//   {
+	// 	"name": "Properties",
+	// 	"scope": [
+	// 	  "variable.other.property", // mod
+	// 	],
+	// 	"settings": {
+	// 	  "foreground": "#657b83"
+	// 	}
+	//   },
 	  {
 		"name": "Invalid",
 		"scope": "invalid",
@@ -130,14 +140,14 @@
 		}
 	  },
 	  {
-		"name": "Variables",
+		"name": "Parameters",
 		"scope": [
 		  "variable.parameter", // mod
 		  "support.other.variable",
 		  "string.other.link"
 		],
 		"settings": {
-		  "foreground": "#c9709e"
+		  "foreground": "#56949f"
 		}
 	  },
 	  {
@@ -148,7 +158,7 @@
 		  "markup.deleted.git_gutter"
 		],
 		"settings": {
-		  "foreground": "#cf4b56"
+		  "foreground": "#ca6e69" // mod, #cf4b56
 		}
 	  },
 	  {
@@ -182,7 +192,7 @@
 		  "keyword.other.unit"
 		],
 		"settings": {
-		  "foreground": "#cb4b16"
+		  "foreground": "#ca6e69" // mod, #cb4b16
 		}
 	  },
 	  {
@@ -234,7 +244,7 @@
 		"scope": "variable.language",
 		"settings": {
 		  "fontStyle": "italic",
-		  "foreground": "#c9709e"
+		  "foreground": "#295e73" // mod keywords like this
 		}
 	  },
 	  {
@@ -1197,7 +1207,7 @@
   
 	  // Editor
 	  "editor.background": "#FDF6E3",
-	  // "editor.foreground": "#6688cc",
+	  "editor.foreground": "#586E75", // mod
 	  "editorWidget.background": "#EEE8D5",
 	  "editorCursor.foreground": "#657B83",
 	  "editorWhitespace.foreground": "#586E7580",
@@ -1320,6 +1330,7 @@
   
 	  // Workbench: Terminal
 	  // Colors sourced from the official palette http://ethanschoonover.com/solarized
+	  "terminal.foreground": "#586E75",
 	  "terminal.ansiBlack": "#eee8d5", // #073642
 	  "terminal.ansiRed": "#b4637a", // #dc322f
 	  "terminal.ansiGreen": "#859900",
