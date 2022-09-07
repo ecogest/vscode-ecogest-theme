@@ -1,7 +1,7 @@
 {
 	"name": "ecogest-solarized-light",
 	"semanticHighlighting": true,
-	"type": "dark",
+	"type": "light",
 	"tokenColors": [
 	  {
 		"settings": {
